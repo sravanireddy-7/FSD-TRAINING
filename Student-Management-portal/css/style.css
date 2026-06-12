@@ -1,0 +1,47 @@
+
+/* Hero section upgrade */
+.hero {
+  background: linear-gradient(to right, #0d6efd, #5a9cff);
+  color: white;
+  padding: 80px 20px;
+}
+
+/* Card hover effect */
+.card:hover {
+  transform: translateY(-5px);
+  transition: 0.3s;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+}
+.carousel-caption {
+  background: rgba(0,0,0,0.5);
+  padding: 15px;
+  border-radius: 10px;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+
+.card{
+    border-radius: 12px;
+}
+
+.card-header{
+    font-weight: bold;
+}
+
+.form-control:focus,
+.form-select:focus{
+    box-shadow: none;
+    border-color: #0d6efd;
+}
+.rounded-circle{
+    object-fit: cover;
+}
+
+.card{
+    border-radius: 15px;
+}
